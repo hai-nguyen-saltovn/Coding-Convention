@@ -1,33 +1,8 @@
 # Coding Style Guide
 
-> **Deprecated** - As of 2019-08-10 PSR-2 has been marked as deprecated. [PSR-12] is now recommended
-as an alternative.
-
-[PSR-12]: https://www.php-fig.org/psr/psr-12/
-
-This guide extends and expands on [PSR-1], the basic coding standard.
-
-The intent of this guide is to reduce cognitive friction when scanning code
-from different authors. It does so by enumerating a shared set of rules and
-expectations about how to format PHP code.
-
-The style rules herein are derived from commonalities among the various member
-projects. When various authors collaborate across multiple projects, it helps
-to have one set of guidelines to be used among all those projects. Thus, the
-benefit of this guide is not in the rules themselves, but in the sharing of
-those rules.
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
-"SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be
-interpreted as described in [RFC 2119].
-
-[RFC 2119]: http://www.ietf.org/rfc/rfc2119.txt
-[PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
-[PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
-
 ## 1. Overview
 
-- Code MUST follow a "coding style guide" PSR [[PSR-1]].
+- Code MUST follow a "coding style guide" PSR-1.
 
 - Code MUST use 4 spaces for indenting, not tabs.
 
@@ -92,7 +67,7 @@ class Foo extends Bar implements FooInterface
 
 ### 2.1. Basic Coding Standard
 
-Code MUST follow all rules outlined in [PSR-1].
+Code MUST follow all rules outlined in PSR-1.
 
 ### 2.2. Files
 
